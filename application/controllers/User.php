@@ -7,6 +7,11 @@ class User extends CI_Controller
         $this->load->model('user_model');
     }
 
+
+
+
+
+	
     function add()
     {
         if ($_SERVER['REQUEST_METHOD'] == 'POST') {
