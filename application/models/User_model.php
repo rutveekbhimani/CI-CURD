@@ -12,6 +12,9 @@ class User_model extends CI_Model
         }
     }
 
+
+	
+
     function getUsers()
     {
         $query = $this->db->get('users');
